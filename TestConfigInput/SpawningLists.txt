@@ -1,0 +1,69 @@
+############### Spawning lists & Parameters ##################
+
+[Patrol_Enemy]
+# Pass in Spawn position, Movement direction, Maximum move distance
+
+#@1
+#v Spawn_Position 		= ( 100.0, 150.0 )
+#v Movement_Direction 	= ( 1.0, 0.0 )
+#Maximum_Move_Distance 	= 100.0
+
+# You can have more than one, try uncommenting below.
+# @2
+# v Spawn_Position 		= ( 300.0, 10.0 )
+# v Movement_Direction 	= ( 1.0, 0.0 )
+# Maximum_Move_Distance = 100.0
+
+[Pursuing_Enemy]
+# Pass in Spawn position, Movement direction, Maximum move distance
+
+#@1
+#v Spawn_Position 		= ( 100.0, 10.0 )
+#v Movement_Direction 	= ( 1.0, 0.0 )
+#Maximum_Move_Distance 	= 100.0
+
+[Static_Platforms]
+# Pass in Spawn position
+
+@1
+v Spawn_Position	= ( 200.0, 200.0 )
+
+
+[Moving_Platforms]
+# Pass in Starting Position, Ending Position & Movement Velocity
+
+@1
+v Starting_Position = ( 100.0, 500.0 )
+v Ending_Position 	= ( 300.0, 500.0 )
+v Movement_Velocity	= ( 5.0, 0.0 )
+
+@2
+v Starting_Position = ( 100.0, 400.0 )
+v Ending_Position 	= ( 600.0, 400.0 )
+v Movement_Velocity	= ( 5.0, 0.0 )
+
+@3
+v Starting_Position = ( 200.0, 300.0 )
+v Ending_Position 	= ( 400.0, 300.0 )
+v Movement_Velocity	= ( 5.0, 0.0 )
+
+[Bouncy_Platforms]
+# Pass in Spawn position & angle (degrees)
+
+@1
+v Spawn_Position	= ( 600.0, 150.0 )
+Platform_Angle		= 45.0
+
+[Crumbling_Platforms]
+# Pass in Spawn position
+
+@1
+v Spawn_Position	= ( 500.0, 150.0 )
+
+[Hazards]
+# Pass in spawn position
+
+#@1
+#v Spawn_Position	= ( 100.0, 150.0 )
+
+###### I NEED TO ADD AN ITEM'S SPAWNLIST TO THE CONFIGFILEREADER ######

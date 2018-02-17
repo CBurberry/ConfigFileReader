@@ -1,0 +1,28 @@
+# Designer Level Parameter Config File
+# Note: Current version using absolute pixels for positions.
+# n.b All position measurements are in pixels.
+
+###################  Global Variables  #######################
+Env_Gravity = -20.0
+
+
+############# Entity Variables for all instances #############
+
+#Player Variables
+Player_Jump_Velocity =  16.5
+Player_Horizontal_Velocity_Increment = 0.35
+Player_Horizontal_Velocity_Limit = 7.5
+Player_Horizontal_Velocity_Decay = -0.2
+v Player_Spawn_Position = ( 100.0, 110.0 )
+
+#Enemy Variables
+Enemy_Movement_Speed = 5.0
+
+#Bouncy Platform Variables
+Bounce_Strength = 20.0
+
+#Collapsing Platform Variables
+Collapse_Time = 3.0
+
+#Exit Variables
+v Exit_Location = ( 800.0, 70.0 )
